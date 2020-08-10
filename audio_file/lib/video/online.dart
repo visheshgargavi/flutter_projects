@@ -32,7 +32,7 @@ class VideoState extends State<VideoOnline> {
   void createVideo() {
     if (playerController == null) {
       playerController = VideoPlayerController.network(
-          "https://raw.githubusercontent.com/aaditya2801/myflutter/master/InShot_20200711_130628554.mp4")
+          "https://github.com/visheshgargavi/flutter_projects/blob/master/audio_file/assets/onlinevideo.mp4")
         ..addListener(listener)
         ..setVolume(1.0)
         ..initialize()
